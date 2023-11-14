@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>JS E4</title>
+  </head>
+  <body>
+    <header id="header">
+      <img
+        src="./assets/img/International_Pokémon_logo.svg.png"
+        alt="logo-pokemon"
+        class="logo-header"
+      />
+      <h1 class="header-title">PokéAPI</h1>
+    </header>
+    <main id="main">
+      <h2 class="form_title">Ingrese el número de Pokémon</h2>
+      <form id="form">
+        <input type="number" class="input-form" />
+        <button class="btn-form">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+      <div class="card-container">
+        <p>El número ingresado es incorrecto. Ingrese otro número.</p>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

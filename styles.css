@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  /* border: red solid 1px; */
+  font-family: "Poppins", "Montserrat", "sans-serif";
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: rgb(222, 13, 13);
+  padding: 1rem;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-title {
+  font-size: 1rem;
+  color: #ffcc01;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+#form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.form_title {
+  font-size: 20px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  color: #2a6eb6;
+}
+
+.input-form {
+  border-radius: 5px;
+  border-style: none;
+  height: 30px;
+  width: 200px;
+}
+
+.btn-form {
+  background-color: transparent;
+  border: none;
+}
+
+.fa-solid {
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+
+.logo-header {
+  width: 350px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: #ffcc01 solid 5px;
+  background-color: #2a6eb6;
+  padding: 1.5rem;
+  width: 300px;
+  gap: 10px;
+}
+
+.img-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-card {
+  width: 200px;
+}
+
+.data-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.data-card p {
+  color: black;
+  font-size: 14px;
+}
+
+.data-card-span {
+  color: #ffcc01;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.error-mge {
+  color: white;
+}
